@@ -150,8 +150,7 @@ function Menu({
         >
           <Typography className="text-3xl">Filters</Typography>
           <Button
-            className=" text-black"
-            style={{ textTransform: "none" }}
+            style={{ textTransform: "none", color: "black" }}
             onClick={clearFilters}
           >
             Clear
